@@ -41,4 +41,3 @@ RUN apt-get install -y --no-install-recommends \
     && rm -rf /wheels /video2x /var/lib/apt/lists/*
 
 WORKDIR /host
-ENTRYPOINT ["/usr/bin/python3.8", "-m", "video2x"]
